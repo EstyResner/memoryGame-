@@ -1,0 +1,100 @@
+  /* --homePage */
+  .caftor {
+    width: 150px;
+    height: 70px;
+    color: goldenrod;
+    margin: auto;
+    text-align: center;
+    text-align: center;
+    color: blue;
+
+  }
+
+  /* --hachlafa */
+  body {
+    margin: auto;
+    text-align: center;
+    background-color: rgb(224, 146, 220);
+    margin-top: 10px;
+   
+  }
+  /* #container2{
+    background-image: url(86-865320_colorful-hearts-big-image-png-glitter-gif-rainbow.png);
+    background-image: none;
+  } */
+  #hearts{
+    
+  }
+
+  .klafim {
+    display: flex;
+    justify-content: space-between;
+    display: inline-block;
+  }
+
+
+  .pics {
+    background-image: linear-gradient(to right, yellow, rgb(197, 96, 96), purple);
+    border-radius: 30px;
+    width: 200px;
+    height: 150px;
+    margin: 20px;
+  }
+
+  .pics:hover {
+    background-color: whitesmoke;
+    opacity: 40%;
+  }
+
+  .hiddenPic {
+    display: none;
+    width: 200px;
+    height: 150px;
+    border-radius: 30px;
+  }
+
+  /* memory Page 2 */
+  .container {
+    height: 100%;
+    width: 20%;
+    margin: 20px;
+  }
+
+  .divs_Right {
+    display: flex;
+    justify-content: space-between;
+    display: inline-block;
+    border-radius: 30px;
+    width: 150px;
+    height: 100px;
+    border-color: rgb(62, 209, 62);
+    border-width: 50px;
+    right:0;
+    position: relative;
+    /* animation-name: turn-left;
+    animation-duration: 3s; */
+  }
+
+  .divs_Left {
+    display: flex;
+    justify-content: space-between;
+    display: inline-block;
+    border-radius: 30px;
+    width: 150px;
+    height: 100px;
+    margin-left: 400%;
+    border-color: rgb(62, 209, 62);
+    border: 50px;
+    right: 0; 
+    position: relative;
+  }
+  .g{
+    height: 50px;
+    width: 50px;
+    background-color: black;
+    border: 20px;
+  }
+  #heartPurple{
+    display: none;
+  }
+

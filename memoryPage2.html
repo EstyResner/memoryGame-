@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="styleGame.css">
+    <title>Document</title>
+    <style>
+        body {
+            background-color: rgb(157, 204, 236);
+            border: 50px;
+        }
+
+        #car {
+            background-color: rgb(44, 170, 15);
+        }
+    </style>
+</head>
+
+<body>
+    <div class="container">
+        <img src="colorfulHeart.png" class="divs_Right"> <img src="1.jpg" class="divs_Left">
+        <img src="10.jpg" class="divs_Right"> <img src="6.png" id="car" class="divs_Left">
+        <img src="8.jpg" class="divs_Right"> <img src="10.jpg" class="divs_Left">
+        <img src="9.png" class="divs_Right"> <img src="7.webp" class="divs_Left">
+        <img src="5.webp" class="divs_Right"> <img src="3.jpg" class="divs_Left">
+    </div>
+    </div>
+    <script>
+        let rights = document.querySelectorAll(".divs_Left");
+        let lefts = document.querySelectorAll(".divs_Right");
+
+        function move() {
+
+            for (let i = 0; i < rights.length; i++)
+                rights[i].style.right = +rights[i].style.right + 1 ;
+        }
+        setInterval(move,500)
+    </script>
+</body>
+
+</html>
